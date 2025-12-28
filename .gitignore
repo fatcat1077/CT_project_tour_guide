@@ -1,0 +1,22 @@
+# ===== Unity (tour_guide only) =====
+tour_guide/Temp/
+tour_guide/UserSettings/
+tour_guide/Library/
+tour_guide/Logs/
+tour_guide/obj/
+tour_guide/Build/
+tour_guide/.vs/
+tour_guide/.vsconfig
+tour_guide/*.csproj
+tour_guide/*.sln
+tour_guide/.utmp
+tour_guide/output/
+tour_guide/*.zip
+tour_guide/RuntimeActionBindings.json
+tour_guide/RuntimeActionBindings.json.meta
+tour_guide/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+tour_guide/PerformanceTestRun*.*
+tour_guide/StreamingAssets*
+!tour_guide/NativeSamples.zip
+Photoes/*
+best.pt
