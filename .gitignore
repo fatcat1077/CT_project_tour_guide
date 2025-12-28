@@ -9,6 +9,7 @@ tour_guide/.vs/
 tour_guide/.vsconfig
 tour_guide/*.csproj
 tour_guide/*.sln
+tour_guide/*.apk
 tour_guide/.utmp
 tour_guide/output/
 tour_guide/*.zip
