@@ -2,3 +2,4 @@
 2.從github下載專案請輸入自行訓練的圖像辨識權重檔並命名為best.pt
 3.請在環境建立自己的API金鑰，利用$env:API_KEY="你的金鑰"，或是hardcode在pc_server.py中
 4.tour_guide的內容請用unity打開並且build到meta quest3上
+5.輸入下列指令建立環境：pip install -r requirements.txt
