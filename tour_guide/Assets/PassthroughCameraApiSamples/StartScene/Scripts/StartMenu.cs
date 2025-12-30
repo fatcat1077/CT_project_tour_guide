@@ -86,17 +86,17 @@ namespace PassthroughCameraSamples.StartScene
         {
             var ui = DebugUIBuilder.Instance;
 
-            ui.AddLabel("成大校園導覽（Passthrough）", UiPane);
+            ui.AddLabel("麻將小幫手", UiPane);
             ui.AddDivider(UiPane);
             ui.AddLabel("請選擇你要問的問題：", UiPane);
 
             // 先建立按鈕，抓字體大小作為回覆框基準
-            var btnWhereRT = ui.AddButton("這裡是哪裡？", () =>
+            var btnWhereRT = ui.AddButton("切換進攻模式", () =>
             {
                 if (!_busy) StartCoroutine(CaptureAndSend("where"));
             }, -1, UiPane);
 
-            ui.AddButton("這個景點有什麼意義？", () =>
+            ui.AddButton("切換防守模式", () =>
             {
                 if (!_busy) StartCoroutine(CaptureAndSend("meaning"));
             }, -1, UiPane);
@@ -117,7 +117,7 @@ namespace PassthroughCameraSamples.StartScene
             // 初始化 disabled
             SetFollowups(null);
 
-            SetAnswer("回覆會顯示在這裡。\n\n請按上方按鈕開始辨識。");
+            SetAnswer("回覆會顯示在這裡。\n\n請按A按鈕開始辨識。");
             ui.Show();
         }
 
@@ -336,8 +336,8 @@ namespace PassthroughCameraSamples.StartScene
 
             if (qs == null || qs.Length < 2 || string.IsNullOrEmpty(qs[0]) || string.IsNullOrEmpty(qs[1]))
             {
-                if (_followBtn1Text != null) _followBtn1Text.text = "（等待回覆後更新問題 1）";
-                if (_followBtn2Text != null) _followBtn2Text.text = "（等待回覆後更新問題 2）";
+                if (_followBtn1Text != null) _followBtn1Text.text = "（建議打這張牌）";
+                if (_followBtn2Text != null) _followBtn2Text.text = "（現在距離胡牌還有兩進聽）";
                 return;
             }
 
@@ -411,13 +411,13 @@ namespace PassthroughCameraSamples.StartScene
         {
             if (_lastJpgBytes == null)
             {
-                SetAnswer("尚未有可用畫面，請先按上方按鈕辨識一次。");
+                SetAnswer("按下A鍵啟用手牌分析。");
                 yield break;
             }
 
             _busy = true;
             SetFollowups(null);
-            SetStatus("狀態：已送出追問，等待回覆…");
+            SetStatus("狀態：正在分析");
 
             yield return SendRequest("ask", _lastJpgBytes, question);
 

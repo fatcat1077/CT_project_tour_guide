@@ -9,7 +9,7 @@ Library: C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Temp\B
 --target-framework=NetFramework
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.52f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer
+--key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Library\Burst
 --output=C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -25,7 +25,7 @@ Library: C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Temp\B
 --target-framework=NetFramework
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.52f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer
+--key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Library\Burst
 --output=C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -141,7 +141,7 @@ Library: C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Temp\B
 --float-mode=Fast
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.52f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer
+--key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Library\Burst
 --output=C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -207,7 +207,7 @@ Library: C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Temp\B
 --float-mode=Fast
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.52f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer
+--key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Library\Burst
 --output=C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -223,7 +223,7 @@ Library: C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Temp\B
 --target-framework=NetFramework
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.52f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer
+--key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Library\Burst
 --output=C:\Users\user\Desktop\VR_project\computation_classify\tour_guide\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
