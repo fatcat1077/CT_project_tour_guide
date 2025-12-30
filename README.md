@@ -8,7 +8,7 @@
 
 ---
 
-## 1. 功能摘要（老師好讀版）
+## 1. 功能摘要
 
 - **Quest 端互動（Unity）**
   - Button A：問「這裡是哪裡？」（mode=where）
@@ -43,7 +43,7 @@ PC Server (FastAPI)
 
 ---
 
-## 3. API 規格（最重要的兩支）
+## 3. API 規格
 
 ### 3.1 `GET /health`
 用途：確認服務是否可用、YOLO 是否載入、LLM 設定是否正確。
@@ -88,8 +88,6 @@ Response（簡化）：
 ---
 
 ## 4. 環境建置（PC Server）
-
-> 下列步驟以 Windows 為例（PowerShell）。若你用 WSL/Linux，指令幾乎相同。
 
 ### 4.1 Python 虛擬環境
 （擇一）使用 venv：
